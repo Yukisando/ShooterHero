@@ -1,0 +1,49 @@
+Name: Shooter Hero
+
+Visual Studio version: 4.6.01038
+
+OpenFrameworks version: 0.9
+
+
+
+
+Description:
+
+Shooter hero is a 2D shooter where the point of the game is shoot the enemies before they touch the edge of the screen (Space Invaders), while avoiding barriers (Icopter) and collectiong power ups.
+The game has 3 difficulties with endings and an endless mode where the point is to go the as far as possible.
+Some enemies are bigger (bosses) and they take more then a single bullet to be killed but do not trigger a gameover if they hit the edge of the screen. They are here for points only.
+
+
+
+Change Log:
+
+done since December:
+
+-Many esthetic improvements (Smooth animations, element positions, etc.)
+-new Ship Sprites(changing according to levels)
+-new endless mode
+-power ups
+-code clean(removed unused functions and variables and renamed unclear varaible names)
+-repaired the size and location of enemies according to the level generator
+-New settings class to manage global variables
+-New Timer class to manage timing (powers, in game messages, etc.)
+-new custom sounds
+-How to play instructions state
+
+
+done since March:
+
+-The level generator finally has it's own class.
+-Power ups are now shown and animated when grabed.
+-A few variables were either unused or used unapropriatly and have been deleted or replaced.
+-BIG UPDATE: Barriers added to the gameplay! Try to avoid the barriers with your ship!
+-Multithreading is here! Endless levels are now generated on a parallel thread. No more waiting!
+-New particules to give a speed effect!
+-Whole new theme soundtrack I made.
+-Scroll through new tracks on the how to play tab.
+-Bigger enemies (bosses) added to the game. Shoot them multiple time to kill them!
+-Menu looks better
+-Score and highscore tracker
+-New shooting system adapted for furtur mobile support. You may leave your mouse pressed now.
+-Power ups appear everytime a boss appears making the gameplay a bit more nervous.
+-Endless mode gets harder as you go.
